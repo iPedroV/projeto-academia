@@ -26,31 +26,36 @@
                     </li>
                 </ul>
             </nav>
-            <div data-interval="900000" id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner" data-interval="1000">
-                  <div class="carousel-item active">
+            <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>  
+              <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="3000">
                     <img src="img/acade.jpg" class="d-block w-100" alt="Treino de Peito">
                   </div>
-                  <div class="carousel-item" data-interval="1000">
+                  <div class="carousel-item" data-bs-interval="3000">
                     <img src="img/academia.jpg" class="d-block w-100" alt="Treino de Bíceps">
                   </div>
-                  <div class="carousel-item" data-interval="1000">
+                  <div class="carousel-item" data-bs-interval="3000">
                     <img src="img/trein.jpg" class="d-block w-100" alt="Modelo Fitness">
                   </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Next</span>
                 </button>
               </div>
               <div class="container">
-                  <div class="row">
+                  <div class="row" style="text-align: center; padding-top: 20px;">
                       <div class="col-lg-4">
-                        <img src="img/costas.jpg" class="rounded-circle" width="140" height="140" style="margin-top: -10%;"alt="Costas">
+                        <img src="img/costas.jpg" class="rounded-circle" width="140" height="140" alt="Costas">
                         <h2>Costas</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae tortor vel velit egestas maximus. Sed aliquam elit et orci tempor luctus.
                              <em>Projetin Felas</em></p>
@@ -71,7 +76,7 @@
                         </div>
                         <div class="col-lg-4">
                         
-                            <img src="img/costas.jpg" class="rounded-circle"  width="140" height="140" style="margin-top: -10%;" alt="Costas">
+                            <img src="img/costas.jpg" class="rounded-circle"  width="140" height="140"  alt="Costas">
                             <h2>Costas</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae tortor vel velit egestas maximus. Sed aliquam elit et orci tempor luctus.
                                  <em>Projetin Felas</em></p>
