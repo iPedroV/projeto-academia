@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'RobotoMono';
+    src: url('../fonts/static/RobotoMono-Regular.ttf');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'RobotoMono';
+    src:url('../fonts/static/RobotoMono-Bold.ttf');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'RobotoMono';
+    src:url('../fonts/static/RobotoMono-Light.ttf');
+    font-weight: 300;
+}
+
+.register-parent {
+    height: 100%;
+    padding: 0 2%;
+    background-color: #fb1237;
+    
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 670px;
+}
+
+.register {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    /* background-color: rgb(255, 213, 213); */
+    border: 10px solid rgb(250, 247, 247);
+    border-radius: 10px 10px 10px 10px;
+    color: rgb(240, 233, 233);
+    background-color: rgba(0, 0, 5, 0, 8);
+}
+
+.register-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-title img{
+    width: 100px;   /* largura da imagem do cadastro */
+    height: 60px;  /* altura da imagem do cadastro */
+}
+
+.register-title h2{
+    font-size: 30px;
+}
+
+/* .register .form-group label {
+    font-size: 14px;
+} */
+
+/* .register .form-group input {
+    font-size: 14px;
+} */
+
+.register button{
+    margin-top: 40px;
+    background: linear-gradient(135deg, #f1c9d6, #fb1237);
+    color: #fff;
+    width:100%;
+    display: block;
+    border: none; /* SEMPRE ESQUEÇO ESSA POHA */
+}
+
+.register button:hover{
+    color:  #f0e8e8;
+    border: none;
+    transform: scale(1.05);
+    transition: .2s;
+    font-size: 16px;
+
+}
+
