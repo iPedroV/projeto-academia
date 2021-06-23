@@ -27,6 +27,7 @@
     align-items: center;
     justify-content: center;
     min-height: 670px;
+    transition: 2.8s;
 }
 
 .register {
@@ -38,6 +39,7 @@
     border-radius: 10px 10px 10px 10px;
     color: rgb(240, 233, 233);
     background-color: rgba(0, 0, 5, 0, 8);
+    transition: 2.8s;
 }
 
 .register-title {
@@ -45,6 +47,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    transition: 2.8s;
 }
 
 .register-title img{
@@ -54,6 +57,7 @@
 
 .register-title h2{
     font-size: 30px;
+    transition: 2.8s;
 }
 
 /* .register .form-group label {
@@ -66,19 +70,58 @@
 
 .register button{
     margin-top: 40px;
-    background: linear-gradient(135deg, #f1c9d6, #fb1237);
+    animation: color 100s infinite;
+    
     color: #fff;
     width:100%;
     display: block;
     border: none; /* SEMPRE ESQUEÇO ESSA POHA */
+    transition: 2.8s;
+    background-color: red;
+    animation-name: color;
+    animation-duration: 1.5s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
 }
 
 .register button:hover{
     color:  #f0e8e8;
     border: none;
     transform: scale(1.05);
-    transition: .2s;
+    transition: 2.8s;
     font-size: 16px;
-
+    animation: color 100s ease-in infinite;
 }
 
+@keyframes color{
+    from{
+        background-image: linear-gradient(to right, #f1c9d6, #d35454, #fb1237);
+    }
+    to{
+        background-image: linear-gradient(to right, #fb1237, #d35454, #f1c9d6);
+    }
+    100%{
+        background-image: linear-gradient(to left, #f1c9d6, #d35454, #fb1237);
+    }
+}
+
+@keyframes stretch {
+    0% {
+      width: 100%;
+      background-color: red;
+      border-radius: 100%;
+    }
+    50% {
+        text-align: center;
+        width: 70%;
+      background-color: orange;
+    }
+    100% {
+      
+      background-color: yellow;
+    }
+  }
