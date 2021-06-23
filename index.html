@@ -34,7 +34,7 @@
       
           
           <!-- Custom styles for this template -->
-          <link href="carousel.css" rel="stylesheet">
+          <link href="css/carousel.css" rel="stylesheet">
         </head>
         <body>
           
@@ -51,7 +51,7 @@
                   <a class="nav-link active" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Planos</a>
+                  <a class="nav-link" href="#planos">Planos</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Sobre nós</a>
@@ -116,21 +116,21 @@
       
               <h2>Musculação</h2>
               <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
-              <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+              <p><a class="btn btn-secondary" href="#musc">View details &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4">
               <img class="bd-placeholder-img-1 rounded-circle" width="140" height="140" src="img/Pilates.png" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text></svg>
       
               <h2>Pilates</h2>
               <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
-              <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+              <p><a class="btn btn-secondary" href="#pilates">View details &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4">
               <img class="bd-placeholder-img-1 rounded-circle" width="140" height="140" src="img/dance.png" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text></svg>
       
               <h2>Dança</h2>
               <p>And lastly this, the third column of representative placeholder content.This time, we've moved on to the second column.</p>
-              <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+              <p><a class="btn btn-secondary" href="#dance">View details &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
           </div><!-- /.row -->
       
@@ -139,7 +139,7 @@
       
           <hr class="featurette-divider">
       
-          <div class="row featurette">
+          <div id="musc" class="row featurette">
             <div class="col-md-7">
               <h2 class="featurette-heading">Musculação. <span class="text-muted">Para ficar mais forte</span></h2>
               <p class="lead">A musculação é uma modalidade de treinamento físico realizado contra resistência de pesos externos, chamada também de treino resistido, que tem como objetivo o aumento hipertrofia muscular, ganho de força e potência. ... Sua prática constante leva a transformação harmoniosa da constituição física humana</p>
@@ -152,7 +152,7 @@
       
           <hr class="featurette-divider">
       
-          <div class="row featurette">
+          <div id="pilates" class="row featurette">
             <div class="col-md-7 order-md-2">
               <h2 class="featurette-heading">Pilates. <span class="text-muted">Para te deixar mais flexível</span></h2>
               <p class="lead">Pilates é um sistema de exercícios de alongamento e fortalecimento da musculatura. Foi criado pelo alemão Joseph Pilates (1883-1967). Essa técnica busca melhorar o equilíbrio, a flexibilidade e a postura corporal.</p>
@@ -165,12 +165,15 @@
       
           <hr class="featurette-divider">
       
-          <div class="row featurette">
+          <div id="dance" class="row featurette">
             <div class="col-md-7">
               <h2 class="featurette-heading">Dança. <span class="text-muted">Para te deixar feliz</span></h2>
               <p class="lead">Dança é a arte de movimentar expressivamente o corpo seguindo movimentos ritmados, em geral ao som de música. ... É considerada a mais completa das artes, pois envolve elementos artísticos como a música, o teatro, a pintura e a escultura, sendo capaz de exprimir tanto as mais simples quanto as mais fortes emoções.</p>
             </div>
             <div class="col-md-5">
+              <span class="icon-spin position-absolute a-0 d-flex flex-center ">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm8 12c0 4.418-3.582 8-8 8s-8-3.582-8-8 3.582-8 8-8 8 3.582 8 8zm-19 0c0-6.065 4.935-11 11-11v2c-4.962 0-9 4.038-9 9 0 2.481 1.009 4.731 2.639 6.361l-1.414 1.414.015.014c-2-1.994-3.24-4.749-3.24-7.789z"/></svg>
+              </span>
               <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="img/danca.jpg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em"></text></imhg>
       
             </div>
@@ -178,7 +181,7 @@
       
           <hr class="featurette-divider">
           
-          <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+          <div id="planos" class="row row-cols-1 row-cols-md-3 mb-3 text-center">
             <div class="col">
               <div class="card mb-4 rounded-3 shadow-sm">
                 <div class="card-header py-3">
@@ -236,6 +239,7 @@
           </div>
           
           <hr class="featurette-divider">
+          
           <!-- /END THE FEATURETTES -->
       
         </div><!-- /.container -->
