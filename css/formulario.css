@@ -19,7 +19,7 @@
 .register-parent {
     height: 100%;
     padding: 0 2%;
-    background-color: #fb1237;
+    background-color: #fb123991;
     
     background-repeat: no-repeat;
     display: flex;
@@ -40,6 +40,7 @@
     color: rgb(240, 233, 233);
     background-color: rgba(0, 0, 5, 0, 8);
     transition: 2.8s;
+    
 }
 
 .register-title {
@@ -51,7 +52,7 @@
 }
 
 .register-title img{
-    width: 100px;   /* largura da imagem do cadastro */
+        /* largura da imagem do cadastro */
     height: 60px;  /* altura da imagem do cadastro */
 }
 
@@ -95,6 +96,13 @@
     transition: 2.8s;
     font-size: 16px;
     animation: color 100s ease-in infinite;
+}
+
+
+
+.form-check-input:checked {
+    background-color: #fd0d12!important;
+    border-color: transparent;
 }
 
 @keyframes color{
