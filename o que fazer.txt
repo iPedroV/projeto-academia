@@ -1,0 +1,28 @@
+create schema academiaforte;
+use academiaforte;
+
+create table cadastro (
+id int auto_increment primary key,
+nome varchar(45) not null,
+cpf varchar(11) not null,
+nascimento date not null,
+tel varchar(14) not null,
+email varchar(100),
+senha varchar(100) not null,
+sexo varchar(10) not null,
+estado varchar(20) not null,
+cep varchar(8) not null);
+
+
+
+INSERT INTO cadastro( nome, cpf, nascimento, tel, email, senha, sexo, estado, cep) VALUES
+ ('PEDRO', '12345678912', '1944-06-06', '61984849494', 'pedro@gmail.com', '123456', 'masculino', 'Rio de Janeiro', '40000000');
+
+
+
+
+
+
+
+
+ INSTALAR A O XAMPP
